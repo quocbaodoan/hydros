@@ -439,6 +439,9 @@ a{
     height: 20rem;
     box-shadow: 0 1.5rem 4rem rgba(22,28,45,.05);
 }
+.testimonials .nodisplay{
+    display: none;
+}
 .testimonials .col{
     margin: 0;
 }
@@ -855,3 +858,11 @@ footer a{
     box-shadow: 0 1rem 2.5rem rgba(22,28,45,.1),0 .5rem 1rem -.75rem rgba(22,28,45,.1) !important;
 }
 
+@keyframes slide-item-img{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

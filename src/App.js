@@ -3,7 +3,6 @@ import './css/grid.css'
 import './css/queries.css'
 import './css/style.css'
 import brand from './img/logo.png'
-import dashkit from './img/dashkit.jpg'
 import waterbottle from './img/water-bottle.svg'
 import sprout from './img/sprout.svg'
 import illustration1 from './img/illustration-2.png'
@@ -12,8 +11,28 @@ import photo1 from './img/choice-img1.jpg'
 import photo2 from './img/photo-2.jpg'
 import photo3 from './img/choice-img2.jpg'
 import photo4 from './img/choice-img3.jpg'
+import { useState } from 'react';
 
 function App() {
+    const [slideItems, setSlideItems] = useState(0);
+    const nextSlides = () => {
+        if (slideItems > 1) {
+            setSlideItems(0)
+        }
+        else {
+            setSlideItems(slideItems + 1)
+        }
+    }
+    const prevSlides = () => {
+        if (slideItems < 1) {
+            setSlideItems(2)
+        }
+        else {
+            setSlideItems(slideItems - 1)
+        }
+    }
+    console.log(slideItems);
+
     return (
         <div className="App">
             <div class="navbar">
@@ -316,7 +335,7 @@ function App() {
                 <h2 style={{ textAlign: 'center', color: '#335eea' }}>Did you know?</h2>
                 <p style={{ textAlign: 'center' }}>One Hydros bottle typically replaces about 217 single-use plastic ones per year.</p>
                 <div class="slider">
-                    <div class="slide-item">
+                    <div class={"slide-item " + (slideItems !== 0 ? 'nodisplay' : '')}>
                         <div class="row">
                             <div class="col span-1-of-2 slide-item-left">
                                 <img src={photo1} />
@@ -328,7 +347,7 @@ function App() {
                             </div>
                         </div>
                     </div>
-                    <div class="slide-item" style={{ display: 'none' }}>
+                    <div class={"slide-item " + (slideItems !== 1 ? 'nodisplay' : '')}>
                         <div class="row">
                             <div class="col span-1-of-2 slide-item-left">
                                 <img src={photo3} />
@@ -340,7 +359,7 @@ function App() {
                             </div>
                         </div>
                     </div>
-                    <div class="slide-item" style={{ display: 'none' }}>
+                    <div class={"slide-item " + (slideItems !== 2 ? 'nodisplay' : '')}>
                         <div class="row">
                             <div class="col span-1-of-2 slide-item-left">
                                 <img src={photo4} />
@@ -352,8 +371,8 @@ function App() {
                             </div>
                         </div>
                     </div>
-                    <label class="next" onclick="plusSlides(1)"><i class="fas fa-arrow-right"></i></label>
-                    <label class="prev" onclick="plusSlides(-1)"><i class="fas fa-arrow-left"></i></label>
+                    <label class="next" onClick={nextSlides}><i class="fas fa-arrow-right"></i></label>
+                    <label class="prev" onClick={prevSlides}><i class="fas fa-arrow-left"></i></label>
                 </div>
             </div>
             <div class="shape-1">
