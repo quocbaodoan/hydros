@@ -1,0 +1,173 @@
+@media only screen and (max-width:992px){
+    html{
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    .btn-buy{
+        display: none;
+    }
+
+    .mobile-nav-icon{
+        display: block !important;
+    }
+
+    .row{
+        max-width: 767px;
+        padding: 0rem 1rem;
+    }
+
+    .pricing p{
+        width: 70%;
+        color: #506690;
+        margin-left: 15%;
+    }
+
+    .cta p{
+        font-size: 1rem;
+    }
+
+    footer a{
+        font-size: 0.8rem;
+    }
+
+    .testimonials .slide-item{
+        height: 18rem;
+        font-size: 0.8rem;
+    }
+
+    .testimonials .slide-item .row{
+        padding: 0;
+    }
+
+    .testimonials img{
+        height: 18rem;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    h1{
+        font-size: 1.6rem;
+    }
+
+    .col{
+        margin: 0;
+    }
+
+    .row{
+        max-width: 540px;
+        padding: 0rem 1rem;
+    }
+
+    .welcome .row{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .welcome-btn-wrapper{
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .brands .span-1-of-6{
+        display: block;
+        text-align: center;
+    }
+
+    .feature{
+        margin-left: 20%;
+        width: 60%;
+    }
+
+    .feature .col{
+        margin-top: 2rem;
+    }
+
+    .about .about-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .about form{
+        width: 100% !important;
+        margin-top: 1rem;
+    }
+
+    .about-img-1{
+        width: 100%;
+    }
+
+    .cta p{
+        font-size: 0.8rem;
+    }
+
+    .stats img{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    footer .col{
+        margin-top: 1.4rem;
+    }
+
+    .testimonials label{
+        top: 110%;
+    }
+
+    .slide-item-right{
+        background-color: white;
+        border-radius: 0px 0px 10px 10px;
+        padding: 0px 0px 2rem 0px;
+    }
+
+    .testimonials img{
+        height: 21.6rem;
+        clip-path: none;
+    }
+
+    .shape-1 svg{
+        transform: scale(3.4);
+        overflow-x: hidden;
+    }
+}
+
+@media only screen and (max-width:540px){
+    html{
+        font-size: 16px;
+    }
+    
+    .row{
+        max-width: 480px;
+        padding: 0rem 1rem;
+    }
+
+    footer .span-1-of-4{
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (max-width:480px){
+    html{
+        font-size: 14px;
+    }
+
+    .row{
+        max-width: 320px;
+        padding: 0rem 1rem;
+    }
+
+    .shape-1 svg{
+        transform: scale(3.4);
+    }
+}
