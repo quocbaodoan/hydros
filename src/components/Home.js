@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import brand from '../img/logo.png'
 import waterbottle from '../img/water-bottle.svg'
 import sprout from '../img/sprout.svg'
@@ -58,149 +58,20 @@ export default function Home() {
                                     <div className="row">
                                         <h5>Landings</h5>
                                     </div>
-                                    <div className="row">
-                                        <div className="col span-1-of-2">
-                                            <h6>SERVICES</h6>
-                                            <a href="#">Coworking</a>
-                                            <a href="#">Rental</a>
-                                            <a href="#">Job Listing</a>
-                                            <h6 style={{ marginTop: '1rem' }}>APPS</h6>
-                                            <a href="#">Desktop</a>
-                                            <a href="#">Mobile</a>
-                                        </div>
-                                        <div className="col span-1-of-2">
-                                            <h6>WEB</h6>
-                                            <a href="#">Basic</a>
-                                            <a href="#">Startup</a>
-                                            <a href="#">Enterprise</a>
-                                            <a href="#">Service</a>
-                                            <a href="#">Cloud Hosting</a>
-                                            <a href="#">Agency</a>
-                                        </div>
-                                    </div>
                                 </div>
                                 <div className="mobile-nav-border"></div>
                                 <div className="pages-mobile-nav">
                                     <div className="row">
                                         <h5>Pages</h5>
                                     </div>
-                                    <div className="row">
-                                        <div className="col span-1-of-2">
-                                            <h6>CARRER</h6>
-                                            <a href="#">Listing</a>
-                                            <a href="#">Opening</a>
-                                            <h6 style={{ marginTop: '1rem' }}>COMPANY</h6>
-                                            <a href="#">About</a>
-                                            <a href="#">Pricing</a>
-                                            <a href="#">Terms</a>
-                                            <h6 style={{ marginTop: '1rem' }}>HELP CENTER</h6>
-                                            <a href="#">Overview</a>
-                                            <a href="#">Article</a>
-                                            <h6 style={{ marginTop: '1rem' }}>CONTACT</h6>
-                                            <a href="#">Basic</a>
-                                            <a href="#">Cover</a>
-                                        </div>
-                                        <div className="col span-1-of-2">
-                                            <h6>BLOG</h6>
-                                            <a href="#">Richview</a>
-                                            <a href="#">Article</a>
-                                            <a href="#">Showcase</a>
-                                            <a href="#">Search</a>
-                                            <h6 style={{ marginTop: '1rem' }}>PORTFOLIO</h6>
-                                            <a href="#">Masonry</a>
-                                            <a href="#">Grid Rows</a>
-                                            <a href="#">Parallax</a>
-                                            <a href="#">Case Study</a>
-                                            <a href="#">Sidebar</a>
-                                            <a href="#">Sidebar: Fluid</a>
-                                            <a href="#">Basic Grid</a>
-                                        </div>
-                                    </div>
                                 </div>
                                 <div className="mobile-nav-border"></div>
                                 <div className="row account-mobile-nav">
                                     <h5 style={{ marginBottom: '1rem' }}>Account</h5>
-                                    <ul>
-                                        <li className="settings-mobile">
-                                            <a href="#settings-content-mobile" className="settings-header-mobile">Settings<span className=""><i className="fas fa-angle-down"></i></span></a>
-                                            <div className="dropdown-mobile settings-content-mobile" id="settings-content-mobile">
-                                                <a href="#">General</a>
-                                                <a href="#">Security</a>
-                                                <a href="#">Notifications</a>
-                                                <a href="#">Plans & Payment</a>
-                                                <a href="#">Users</a>
-                                            </div>
-                                        </li>
-                                        <li className="sign-in-mobile">
-                                            <a href="#sign-in-content-mobile" className="sign-in-header-mobile">Sign In<span><i className="fas fa-angle-down"></i></span></a>
-                                            <div className="dropdown-mobile sign-in-content-mobile" id="sign-in-content-mobile">
-                                                <a href="#">Side Cover</a>
-                                                <a href="#">Illustration</a>
-                                                <a href="#">Basic</a>
-                                                <a href="#">Model Horizontal</a>
-                                                <a href="#">Model Vertical</a>
-                                            </div>
-                                        </li>
-                                        <li className="sign-up-mobile">
-                                            <a href="#sign-up-content-mobile" className="sign-up-header-mobile">Sign Up<span><i className="fas fa-angle-down"></i></span></a>
-                                            <div className="dropdown-mobile sign-up-content-mobile" id="sign-up-content-mobile dropdown-mobile">
-                                                <a href="#">Side Cover</a>
-                                                <a href="#">Illustration</a>
-                                                <a href="#">Basic</a>
-                                                <a href="#">Model Horizontal</a>
-                                                <a href="#">Model Vertical</a>
-                                            </div>
-                                        </li>
-                                        <li className="password-reset-mobile">
-                                            <a href="#password-reset-content-mobile" className="password-reset-header-mobile">Password Reset<span><i className="fas fa-angle-down"></i></span></a>
-                                            <div className="dropdown-mobile password-reset-content-mobile" id="password-reset-content-mobile dropdown-mobile">
-                                                <a href="#">Side Cover</a>
-                                                <a href="#">Illustration</a>
-                                                <a href="#">Basic</a>
-                                            </div>
-                                        </li>
-                                        <li className="error-mobile">
-                                            <a href="#error-content-mobile" className="error-header-mobile">Error<span><i className="fas fa-angle-down"></i></span></a>
-                                            <div className="dropdown-mobile error-content-mobile" id="error-content-mobile dropdown-mobile">
-                                                <a href="#">Side Cover</a>
-                                                <a href="#">Illustration</a>
-                                                <a href="#">Basic</a>
-                                            </div>
-                                        </li>
-                                    </ul>
                                 </div>
                                 <div className="mobile-nav-border"></div>
                                 <div className="row documentation-mobile-nav">
                                     <h5 style={{ marginBottom: '1rem' }}>Documentation</h5>
-                                    <div className="row">
-                                        <a href="#" style={{ display: 'flex' }}>
-                                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M8 3v.5A1.5 1.5 0 009.5 5h5A1.5 1.5 0 0016 3.5V3h2a2 2 0 012 2v16a2 2 0 01-2 2H6a2 2 0 01-2-2V5a2 2 0 012-2h2z" fill="#335EEA" opacity=".3"></path><path d="M11 2a1 1 0 012 0h1.5a.5.5 0 01.5.5v1a.5.5 0 01-.5.5h-5a.5.5 0 01-.5-.5v-1a.5.5 0 01.5-.5H11z" fill="#335EEA"></path><rect fill="#335EEA" opacity=".3" x="7" y="10" width="5" height="2" rx="1"></rect><rect fill="#335EEA" opacity=".3" x="7" y="14" width="9" height="2" rx="1"></rect></g></svg>
-                                            <div className="col">
-                                                <h6>DOCUMENTATION</h6>
-                                                <p>Customizing and building</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="mobile-nav-border"></div>
-                                    <div className="row">
-                                        <a href="#" style={{ display: 'flex' }}>
-                                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><rect fill="#335EEA" x="4" y="4" width="7" height="7" rx="1.5"></rect><path d="M5.5 13h4a1.5 1.5 0 011.5 1.5v4A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-4A1.5 1.5 0 015.5 13zm9-9h4A1.5 1.5 0 0120 5.5v4a1.5 1.5 0 01-1.5 1.5h-4A1.5 1.5 0 0113 9.5v-4A1.5 1.5 0 0114.5 4zm0 9h4a1.5 1.5 0 011.5 1.5v4a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-4a1.5 1.5 0 011.5-1.5z" fill="#335EEA" opacity=".3"></path></g></svg>
-                                            <div className="col">
-                                                <h6>COMPONENTS</h6>
-                                                <p>Full list of components</p>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="mobile-nav-border"></div>
-                                    <div className="row">
-                                        <a href="#" style={{ display: 'flex' }}>
-                                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"></path><path d="M5.857 2h7.88a1.5 1.5 0 01.968.355l4.764 4.029A1.5 1.5 0 0120 7.529v12.554c0 1.79-.02 1.917-1.857 1.917H5.857C4.02 22 4 21.874 4 20.083V3.917C4 2.127 4.02 2 5.857 2z" fill="#335EEA" opacity=".3"></path><rect fill="#335EEA" x="6" y="11" width="9" height="2" rx="1"></rect><rect fill="#335EEA" x="6" y="15" width="5" height="2" rx="1"></rect></g></svg>
-                                            <div className="col">
-                                                <h6>CHANGELOG</h6>
-                                                <p>Keep track of changes</p>
-                                            </div>
-                                        </a>
-                                    </div>
                                 </div>
                                 <div className="mobile-btn">
                                     Buy now
@@ -223,7 +94,7 @@ export default function Home() {
                             <p>Thirsty? Hydros will send you glowing reminders<br />when you need to take a sip of water. <br /> It will help prevent dehydration.</p>
                         </div>
                         <div className="row welcome-btn-wrapper" style={{ marginTop: '3rem' }}>
-                            <a href="#" className="btn btn-view-all">View products  <i className="fas fa-arrow-right"></i></a>
+                            <a href="/cart" className="btn btn-view-all">View products  <i className="fas fa-arrow-right"></i></a>
                             <a href="#" className="btn btn-documentation">Documentation</a>
                         </div>
                     </div>
