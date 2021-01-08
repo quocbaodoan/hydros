@@ -171,8 +171,10 @@ export default function Home() {
                     <div className="col span-1-of-2">
                         <form className="about-form">
                             <img className="about-img-1" src={photo2} /><br />
-                            <input type="text" placeholder="Name" id="name" name="name" oninvalid="invalidName(this)" oninput="invalidName(this)" /><br />
-                            <input type="email" placeholder="Email" id="email" name="email" oninvalid="invalidEmail(this)" oninput="invalidEmail(this)" /><br />
+                            <h5 style={{ textAlign: "left", width: "70%", marginLeft: "15%", color: "#869ab8", fontWeight: "400" }}>Phone</h5>
+                            <input type="text" value="0969552064" id="name" name="name" oninvalid="invalidName(this)" oninput="invalidName(this)" disabled /><br />
+                            <h5 style={{ textAlign: "left", width: "70%", marginLeft: "15%", color: "#869ab8", fontWeight: "400" }}>Email</h5>
+                            <input type="email" value="hydros192830@gmail.com" id="email" name="email" oninvalid="invalidEmail(this)" oninput="invalidEmail(this)" disabled /><br />
                             <input type="submit" className="btn btn-submit" id="btn-submit" value="Contact Us" onsubmit="handleSubmit()" />
                         </form>
                     </div>

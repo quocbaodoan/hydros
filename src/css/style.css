@@ -365,7 +365,12 @@ a{
     border-bottom: 1px solid #f1f4f8;
     margin-bottom: 0.8rem;
     width: 70%;
-    padding: 0.5rem 0px 1rem 0px;
+    color: black !important;
+    font-size: 15px;
+    padding: 0.5rem 0px 0.5rem 0px;
+}
+.about input:disabled{
+    background-color: #fff;
 }
 .about a{
     margin-top: 3rem;
