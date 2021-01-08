@@ -304,7 +304,7 @@ a{
 
 .welcome-image img{
     color: #335eea;
-    margin-left: 4rem;
+    margin-left: 8rem;
 }
 
 
@@ -880,7 +880,7 @@ footer a{
 }
 
 .cart__inner img{
-    width: 10rem;
+    width: 5rem;
 }
 
 .qty{

@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from 'react'
 import PaypalButton from './PaypalButton'
-import waterbottle from '../img/water-bottle.svg'
+import waterbottle from '../img/water-bottle.png'
 
 export default function CartContent() {
     const [qty, setQty] = useState(1);

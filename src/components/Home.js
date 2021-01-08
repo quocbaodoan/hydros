@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from 'react'
 import brand from '../img/logo.png'
-import waterbottle from '../img/water-bottle.svg'
+import waterbottle from '../img/water-bottle.png'
 import sprout from '../img/sprout.svg'
 import photo1 from '../img/choice-img1.jpg'
 import photo2 from '../img/photo-2.jpg'
