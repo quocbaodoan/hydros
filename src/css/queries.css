@@ -51,6 +51,10 @@
         height: 18rem;
         border-radius: 10px 10px 0px 0px;
     }
+    
+    .cart__inner{
+        margin-top: 120px !important;
+    }
 }
 
 @media only screen and (max-width:767px){
@@ -77,6 +81,10 @@
         margin-top: 1rem;
         align-items: center;
         justify-content: center;
+    }
+
+    .welcome-image img{
+        margin-left: 0rem !important;
     }
 
 
@@ -139,6 +147,14 @@
     .shape-1 svg{
         transform: scale(3.4);
         overflow-x: hidden;
+    }
+
+    .cart{
+        min-height: 60vh !important; 
+    }
+
+    .cart__inner{
+        margin-top: 120px !important;
     }
 }
 
